@@ -16,6 +16,7 @@
     font-size: 20px;
     font-weight: 700;
     padding: 20px 43px;
+    margin-top: 32px;
 }
 
 section {
@@ -64,7 +65,7 @@ header {
     font-size: 18px;
     line-height: 30px;
     max-width: 634px;
-    margin: 32px 0;
+    margin-top: 32px;
 }
 
 .banner-img {
@@ -110,7 +111,7 @@ header {
     background: rgba(71, 125, 17, 0.15);
 }
 
-.yellow-flower-img{
+.yellow-flower-img {
     padding: 67px 75px 0;
 }
 
@@ -122,3 +123,43 @@ header {
     text-decoration: underline;
     margin-top: 32px;
 }
+
+/* service section styles */
+
+.service-content {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+}
+
+.each-service {
+    text-align: center;
+}
+
+.service-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 24px;
+}
+
+/* hot deal styles */
+
+.hot-deal-content {
+    display: flex;
+    gap: 186px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 0;
+}
+
