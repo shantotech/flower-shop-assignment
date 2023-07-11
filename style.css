@@ -167,7 +167,49 @@ header {
     color: #E55473;
 }
 
-/* Instagram styles */
+/* happy customers styles */
+
+.all-customer{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.customer{
+    box-shadow: 3px 4px 10px #adabab;
+    width: 450px;
+    height: 380px;
+}
+
+.customer-photo{
+    padding: 50px 0 0 50px;
+}
+
+.customer-feedback{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    line-height: 26px;
+    width: 350px;
+    padding-top: 24px;
+    padding-left: 50px;
+}
+
+.customer-name{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 32px;
+    padding-left: 50px;
+}
+
+.customer-designation{
+    color: rgba(39, 39, 39, 0.60);
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+/* instagram styles */
 
 .images {
     display: flex;
