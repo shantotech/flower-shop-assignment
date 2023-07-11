@@ -1,0 +1,124 @@
+/* universal styles */
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* common styles */
+
+.btn-primary {
+    border-radius: 8px;
+    border-style: none;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+}
+
+section {
+    margin-top: 128px;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    width: 594px;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+/* header/banner styles */
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+    height: 850px;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 240px 0;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 634px;
+    margin: 32px 0;
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+}
+
+/* our featured flowers styles */
+
+.flowers {
+    display: flex;
+    gap: 24px;
+    margin: 0 240px;
+    padding-top: 48px;
+}
+
+.pink-flower-shape {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.pink-flower-img {
+    padding: 110px 78px 0 76px;
+}
+
+.blue-flower-shape {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.blue-flower-img {
+    padding: 117px 47px 51px;
+}
+
+.yellow-flower-shape {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.yellow-flower-img{
+    padding: 67px 75px 0;
+}
+
+.flower-name {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 32px;
+}
