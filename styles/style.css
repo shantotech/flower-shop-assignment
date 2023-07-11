@@ -169,24 +169,24 @@ header {
 
 /* happy customers styles */
 
-.all-customer{
+.all-customer {
     display: flex;
     gap: 30px;
     justify-content: center;
     margin-top: 48px;
 }
 
-.customer{
+.customer {
     box-shadow: 3px 4px 10px #adabab;
     width: 450px;
     height: 380px;
 }
 
-.customer-photo{
+.customer-photo {
     padding: 50px 0 0 50px;
 }
 
-.customer-feedback{
+.customer-feedback {
     color: rgba(39, 39, 39, 0.80);
     font-size: 16px;
     line-height: 26px;
@@ -195,7 +195,7 @@ header {
     padding-left: 50px;
 }
 
-.customer-name{
+.customer-name {
     color: #272727;
     font-size: 20px;
     font-weight: 800;
@@ -203,7 +203,7 @@ header {
     padding-left: 50px;
 }
 
-.customer-designation{
+.customer-designation {
     color: rgba(39, 39, 39, 0.60);
     padding-top: 5px;
     padding-left: 50px;
@@ -243,6 +243,7 @@ input {
 
 input::placeholder {
     padding-left: 22px;
+    color: rgba(39, 39, 39, 0.60);
 }
 
 .subscribe-button {
@@ -276,7 +277,7 @@ footer {
     padding-top: 128px;
 }
 
-.flower-text-color{
+.flower-text-color {
     color: #E55473;
 }
 
@@ -291,7 +292,7 @@ footer {
     padding: 24px 0 32px 0;
 }
 
-.copyright-text{
+.copyright-text {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-weight: 300;
